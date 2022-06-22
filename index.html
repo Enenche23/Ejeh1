@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIT CONVERTER</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    <div class="container ">
+        <h1 id="title">ALL IN ONE CALCULATOR</h1>
+        <div id="container" class="container1 m-b ">
+            <a href="unit.html" class="topic" id="unit">Unit converter</a>
+            <a href="maths.html" class="topic" id="maths">Maths</a>
+            <a href="chemistry.html" class="topic" id="chem">Chemistry</a>
+            <a href="physics.html" class="topic" id="phy">Physics</a>
+        </div>
+        <h1> CURRENCY CONVERSION </h1>
+        <h2>Dollars to Naira</h2>
+             
+                <input type="number" id="dollars" class="input" placeholder="Amount in Dollars">
+            
+            <button onclick="Naira()" class="button" id="unit1">To Naira</button>
+
+            <hr>
+
+        <h2>Naira to Dollars</h2>
+             
+                <input type="number" id="naira" class="input" placeholder="Amount in Naira">
+            
+            <button onclick="Dollars()" class="button" id="unit1">To Dollars</button><br><br>
+
+        <h1> TEMPERATURE CONVERSION </h1>
+        <h2>Celsius To Fahrenheit(F = (C * 9/5)+32)</h2>
+        
+    
+            <input type="number" id="celsius" placeholder="Temp In Celsius">
+        
+        <button onclick="Fahrenheit()" class="button" id="unit1">Fahrenheit</button>
+
+        <hr>
+        <h2>Fehrenheit To Celsius(F-32*5)/9</h2>
+        
+        
+            <input type="number" id="fehrenheit" placeholder="Temp in Fahrenheit">
+        
+        <button onclick="Celsius()" class="button" id="unit1">Celsius</button>
+
+        <hr>
+        <h2>Celsius To Kelvin(K = C + 273)</h2>
+        
+        
+            <input type="number" id="celsius2" placeholder="Temp in Celsius">
+        
+        <button onclick="Kelvin()" class="button" id="unit1">Kelvin</button>
+        <hr>
+
+        <h2>Kelvin To Celsius(C = K - 273)</h2>
+
+    
+            <input type="number" id="kelvin" placeholder="Temp In K">
+        
+        <button onclick="Celsius2()" class="button" id="unit1">Celsius</button>
+
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

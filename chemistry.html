@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chemistry </title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">ALL IN ONE CALCULATOR</h1>
+        <div class="container1 m-b">
+            <a href="unit.html" class="topic" id="unit">Unit converter</a>
+            <a href="maths.html" class="topic" id="maths">Maths</a>
+            <a href="chemistry.html" class="topic" id="chem">Chemistry</a>
+            <a href="physics.html" class="topic" id="phy">Physics</a>
+        </div>
+    <h1> Universal Gas Equation (n = P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub>=P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>)</h1>
+
+    <h2>Initial Pressure(P1)</h2>
+
+   
+            <input type="number" id="p2" placeholder="Final Press(P2)">
+        
+            <input type="number" id="v2" placeholder="Final Vol(V2)">
+        
+
+   
+            <input type="number" id="t1" placeholder="Initial Temp(T1)">
+        
+
+        
+            <input type="number" id="v1" placeholder="Initial Vol(V1)">
+
+        
+            <input type="number" id="t2" placeholder="Final Temp(T2)">
+        
+
+        <button onclick="initialPressure()" class="button" id="chem1">Initial Pressure</button>
+
+        <hr>
+        <h2>Initial Volume(V1)</h2>
+
+        
+            <input type="number" id="ap2" placeholder="Final Press(P2)">
+
+    
+            <input type="number" id="av2" placeholder="Final Vol(V2)">
+        
+
+        
+            <input type="number" id="at1" placeholder="Initial Temp(T1)">
+        
+
+        <input type="number" id="ap1" placeholder="Initial Press(P1)">
+    
+            <input type="number" id="at2" placeholder="Final Temp(T2)">
+    
+           
+        <button onclick="initialVolume()" class="button" id="chem1">Initial Volume</button>
+        <hr>
+        <h2>Initial Temperature(T1)</h2>
+
+        
+            <input type="number" id="bp1" placeholder="Initial Press(P1)">
+        
+
+        
+            <input type="number" id="bv1" placeholder="Initial Vol(V1)">
+
+        
+            <input type="number" id="bt2" placeholder="Final Temp(T2)">
+        
+
+        
+            <input type="number" id="bp2" placeholder="Final Press(P2)">
+        
+            <input type="number" id="bv2" placeholder="Final Vol(V2)">
+
+        <button onclick="initialTemperature()" class="button" id="chem1">Initial Temp</button>
+
+        <hr>
+        <h2>Final Pressure(P2)</h2>
+
+        
+            <input type="number" id="cp1" placeholder="Initial Press(P1)">
+        
+            <input type="number" id="cv1" placeholder="Initial Vol(V1)">
+        
+
+        
+            <input type="number" id="ct2" placeholder="Final Temp(T2)">
+        
+
+        
+            <input type="number" id="ct1" placeholder="Initial Temp(T1)">
+
+        
+            <input type="number" id="cv2" placeholder="Final Vol(v2)">
+
+        <button onclick="finalPressure()" class="button" id="chem1">Final Pressure</button>
+
+        <hr>
+        <h2>Final Volume(V2)</h2>
+
+        
+            <input type="number" id="dp1" placeholder="Initial Press(P1)">
+        
+            <input type="number" id="dv1" placeholder="Initial Vol(V1)">
+      
+
+        
+            <input type="number" id="dt2" placeholder="Final Temp(T2)">
+    
+
+        
+            <input type="number" id="dp2" placeholder="Final Press(P2)">
+        
+            <input type="number" id="dt1" placeholder="Initial Temp(T2)">
+    
+
+        <button onclick="finalVolume()" class="button" id="chem1">Final Volume</button>
+
+        <hr>
+        <h2>Final Temperature(T2)</h2>
+
+        
+            <input type="number" id="ep2" placeholder="Final Press(P2)">
+    
+            <input type="number" id="ev2" placeholder="Final Vol(V2)">
+        
+
+        
+            <input type="number" id="et1" placeholder="Initial Temp(T1)">
+        
+
+        
+            <input type="number" id="ep1" placeholder="Initial Press(P1)">
+        
+            <input type="number" id="ev1" placeholder="Initial Vol(V1)">
+
+
+        <button onclick="finalTemperature()" class="button" id="chem1">Final Temp</button>
+
+
+    </div>
+
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

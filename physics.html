@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Physics </title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">ALL IN ONE CALCULATOR</h1>
+        <div class="container1 m-b">
+            <a href="unit.html" class="topic" id="unit">Unit converter</a>
+            <a href="maths.html" class="topic" id="maths">Maths</a>
+            <a href="chemistry.html" class="topic" id="chem">Chemistry</a>
+            <a href="physics.html" class="topic" id="phy">Physics</a>
+        </div>
+        <h1> Newton's 2<sup>nd</sup>   Law of Motion (F = m x a) </h1>
+        
+        <h2>To find the Force in Newton </h2>
+        
+            <input type="number" id="mass" placeholder="m">
+        
+
+        
+            <input type="number" id="acceleration" placeholder="a">
+        
+        <button onclick="Force()" class="button" id="phy1">Force(F)</button>
+
+        <hr>
+        <h2>To find the Mass in g </h2>
+
+        
+            <input type="number" id="force" placeholder="F">
+        
+
+        
+            <input type="number" id="acceleration2" placeholder="a">
+        
+
+        <button onclick="Mass()" class="button" id="phy1">Mass(m)</button>
+
+        <hr>
+        <h2>To find the Acceleration in ms<sup>-2</sup> </h2>
+
+           <input type="number" id="force2" placeholder="F">
+        
+
+        
+            <input type="number" id="mass2" placeholder="m">
+        
+
+        <button onclick="Acceleration()" class="button" id="phy1">Acceleration(a)</button>
+
+        <hr>
+        <h1> Michael Faraday's Law of Conductivity (V = IR)</h1>
+
+        <h2>To find the Voltage in V </h2>
+
+        
+            <input type="number" id="current" placeholder="Current(I)">
+        
+        
+            <input type="number" id="resistance" placeholder="Resistance(R)">
+        
+
+        <button onclick="Voltage()" class="button" id="phy1">Voltage(V)</button>
+
+        <hr>
+        <h2>To find the Current in Amperes </h2>
+
+        
+            <input type="number" id="voltage" placeholder="Voltage(V)">
+        
+
+        
+            <input type="number" id="resistance2" placeholder="Resistance(R)">
+        
+
+        <button onclick="Current()" class="button" id="phy1">Current(A)</button>
+
+        <hr>
+        <h2>To find Resistance in Olms </h2>
+
+        
+            <input type="number" id="voltage2" placeholder="Voltage(V)">
+        
+
+        
+            <input type="number" id="current2" placeholder="Current(I)">
+        
+
+        <button onclick="Resistance()" class="button" id="phy1">Resistance(Olms)</button>
+
+        <hr>
+    <h1> Einsteins Theory Of Relativity (E = MC<sup>2</sup>)</h1>
+
+    <h2>To find Energy (Joules) </h2>
+
+    
+        <input type="number" id="mass3" placeholder="Mass(M)">
+    
+
+    <button onclick="Energy()" class="button" id="phy1">Energy (Joules)</button>
+
+    <hr>
+    <h2>To find Mass in Kilogram </h2>
+
+        
+    <input type="number" id="energy" placeholder="Energy(E)">
+        
+
+    <button onclick="Mass2()" class="button" id="phy1">Mass(M) in Kg</button>
+    </div>
+
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
